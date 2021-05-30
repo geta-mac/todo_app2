@@ -1,0 +1,15 @@
+current directory: /Users/igetahiroto/programing/ruby/todo_app2/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.7.5/ext/bootsnap
+/Users/igetahiroto/.anyenv/envs/rbenv/versions/2.7.3/bin/ruby -I /Users/igetahiroto/.anyenv/envs/rbenv/versions/2.7.3/lib/ruby/site_ruby/2.7.0 -r ./siteconf20210530-36028-1mpw3ov.rb extconf.rb
+creating Makefile
+
+current directory: /Users/igetahiroto/programing/ruby/todo_app2/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.7.5/ext/bootsnap
+make DESTDIR\= clean
+
+current directory: /Users/igetahiroto/programing/ruby/todo_app2/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.7.5/ext/bootsnap
+make DESTDIR\=
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/igetahiroto/programing/ruby/todo_app2/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.7.5/ext/bootsnap
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20210530-36028-c1z65z/bootsnap
