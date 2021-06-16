@@ -1,6 +1,6 @@
 <div class="card bg-light d-inline-block text-wrap h-100 mx-1 goal-card"
     data-model_name="<%= Goal.model_name.singular %>"
-    data-id="<%= goal.id %>"
+    data-id="<%= goal.id %>">
     <div class="d-flex flex-column h-100" style="width: 25rem; min-width: 25rem;">
         <div class="font-weight-bold px-4 py-2 goal-header">
             <div class="pr-5">
@@ -14,7 +14,7 @@
                     </button>
                     <div class="dropdown-menu dropdown-menu-right text-middle">
                         <%= link_to "Edit", edit_goal_path(goal), class: "dropdown-item", remote: true %>
-                        <%= link_to "Delete", goal, method: :delete, class: "dropdown-item text-danger", remote: true, data: { confirm: 'Are you susre?'} %>
+                        <%= link_to "Delete", goal, method: :delete, class: "dropdown-item text-danger", remote: true, data: { confirm: 'Are you sure?' } %>
                     </div>
                 </div>
             </div>

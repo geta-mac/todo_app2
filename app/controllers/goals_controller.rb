@@ -10,7 +10,7 @@ class GoalsController < ApplicationController
 
   # GET /goals/new
   def new
-    @goal = current_user.goals.all
+    @goal = current_user.goals.new
   end
 
   # GET /goals/1/edit
@@ -50,7 +50,7 @@ class GoalsController < ApplicationController
     redirect_to(goals_url, alert: "ERROR!!") if @goal.blank?
     end
 
-    
+
     def goal_params
       params.require(:goal).permit(:title, :user_id)
     end
