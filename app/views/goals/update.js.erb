@@ -3,7 +3,7 @@ $('body').removeClass('modal-open');
 $('.modal-backdrop').remove();
 
 <% if @status %>
-$('[data-model_name="goal"]').filter('data-id="<%= @goal.id %>"]').replacewith("<%= j(render @goal) %>");
+$('[data-model_name="goal"]').filter('[data-id="<%= @goal.id %>"]').replaceWith("<%= j(render @goal) %>");
 
 <% else %>
 
